@@ -74,6 +74,7 @@ h1 {
 .items {
     background-color: rgba(114, 129, 129, 0.637);
     border: solid thin #868686;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.302);
 }
 .items img {
     width: 100%;
@@ -90,7 +91,7 @@ h1 {
 .items h3 {
     font-size: 2rem;
    margin-left: 10px;
-   color:rgb(255, 217, 0);
+   color:rgb(253, 222, 243);
 
 }
 .items p {
@@ -162,6 +163,7 @@ h1 {
     margin-bottom: 8px;
     margin: 3px;
     font-size: 16px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.5);
    ;
    
 }
