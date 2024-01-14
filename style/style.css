@@ -9,7 +9,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-image: linear-gradient(135deg,#00b7d4,#505488,#2f3f80,#161569,#5a4894,#A950A1,#FF7CAE);
+    background-image: linear-gradient(135deg,#00b7d4,#505488,#2f3f80,#161569,#5a4894,#90378b,#84389f);
     background-size: 500%;
     animation: fananimado 10s infinite;
 }
@@ -39,12 +39,14 @@ body {
 
 }
 
+
 h1 {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 2rem;
     font-size: 3rem;
-    color: #ffff00;
+    color: rgb(255, 217, 0);
+    text-align: center;
     
 }
 .textoInicial {
@@ -87,13 +89,13 @@ h1 {
 }
 .items h3 {
     font-size: 2rem;
-   margin-left: 5px;
-   color: #d1d1d1;
+   margin-left: 10px;
+   color:rgb(255, 217, 0);
 
 }
 .items p {
     font-size: 1.6rem;
-    color: #130321;
+    color: #f1edf5;
     margin-bottom: 15px;
     margin-top: 5px;
     margin-left: 10px;
@@ -176,3 +178,95 @@ button:hover {
     margin-bottom: 15px;
    
 }
+
+  @media screen and (max-width: 1400px) {
+    /* Styles for screens narrower than 480px */
+    .grid {
+        grid-template-columns: repeat(3,350px);
+        
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container {
+        grid-template-columns: repeat(3,350px);
+        
+    }
+  }
+  @media screen and (max-width: 1250px) {
+    /* Styles for screens narrower than 480px */
+    .grid {
+        grid-template-columns: repeat(2,380px);
+        
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container {
+        grid-template-columns: repeat(2,360px);
+        
+    }
+  }
+
+  @media screen and (max-width: 990px) {
+    /* Styles for screens narrower than 480px */
+    .grid {
+        grid-template-columns: repeat(2,320px);
+        
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container {
+        grid-template-columns: repeat(2,360px);
+        
+    }
+    .items {
+        height:500px ;
+    }
+    .precio {
+        margin-top: 2rem;
+    }
+  }
+  @media screen and (max-width: 790px) {
+    /* Styles for screens narrower than 480px */
+    .grid {
+        grid-template-columns: repeat(2,320px);
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container {
+        grid-template-columns: repeat(2,360px);
+        
+    }
+  }
+  @media screen and (max-width: 750px) {
+    /* Styles for screens narrower than 480px */
+    .grid {
+        grid-template-columns: repeat(1,390px);
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container {
+        grid-template-columns: repeat(1,380px);
+        
+    }
+  }
+  @media screen and (max-width: 400px) {
+    /* Styles for screens narrower than 480px */
+    .grid {
+        grid-template-columns: repeat(1,320px);
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container {
+        grid-template-columns: repeat(1,360px);
+        
+    }
+  }
