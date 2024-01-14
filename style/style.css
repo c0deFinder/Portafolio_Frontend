@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-image: linear-gradient(135deg,#00b7d4,#505488,#2f3f80,#161569,#5a4894,#A950A1,#FF7CAE);
+    background-size: 500%;
+    animation: fananimado 10s infinite;
+}
+@keyframes fananimado{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+.container {
+   
+    justify-content: center;
+    
+}
+.container footer {
+    width: 100%;
+    background-color: rgb(155, 155, 155);
+    margin-top: 3rem;
+    color: black;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: #ffff00;
+    
+}
+.textoInicial {
+    text-align: center;
+    margin-top: 1rem;
+    color: #fff;
+}
+.textoInicial p {
+    font-size: 24px;
+    
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,380px);
+    grid-template-rows: repeat(2,1fr);
+    margin: auto;
+    max-width: 1200px;
+    padding-bottom: 50px;
+    background-color: #5a48949b;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 20px;
+   
+}
+.items {
+    background-color: rgba(114, 129, 129, 0.637);
+    border: solid thin #868686;
+}
+.items img {
+    width: 100%;
+    height: 250px;
+}
+.info {
+    padding: 15px;
+    height: 1rem;
+
+}
+.info2 {
+    height: 3rem;
+}
+.items h3 {
+    font-size: 2rem;
+   margin-left: 5px;
+   color: #d1d1d1;
+
+}
+.items p {
+    font-size: 1.6rem;
+    color: #130321;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-justify: inter-word;
+    
+}
+.text-container {
+    height: 80px;
+}
+.precio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.precio a {
+    color: #fff;
+    font-size: 2.6rem;
+}
+.precio button {
+    font-weight: bolder;
+    font-size: 1.4rem;
+    width: 7rem;
+   
+}
+.PiePagina {
+    background-color: rgba(169, 169, 169, 0.615);
+    height: 5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.icons_container a {
+    font-size: 28px;
+    margin: 5px;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.5);
+    transition: all .4s ease-in-out;
+}
+.icons_container a:hover {
+    transform: scale(1.2);
+}
+.items button {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgb(73, 73, 147);
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-bottom: 8px;
+    margin: 3px;
+    font-size: 16px;
+   ;
+   
+}
+button:hover {
+    background-color: rgba(139, 0, 0, 0.591);
+    transition: all .1.5s;
+    border: solid thin #ffffff95;
+}
+.icons_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 15px;
+   
+}
